@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="/dist/output.css" rel="stylesheet">
+
+</head>
+<body>
+
+<h1 class="text-orange-500 text-2xl">GRUBHUB</h1>
+<div class="flex flex-col w-screen bg-green-200 justify-center items-center h-96">
+    <p class="text-4xl mt-3">Find all Soul food resturants that deliver to you.</p>
+    <p class="text-2xl mt-3">Who delivers?</p>
+    <p class="mt-3">Enter address below</p>
+    <div class="relative">
+        <div class="flex flex-row bg-white mt-3 rounded-md">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+            </svg>
+            <input type="search" id="query" placeholder="SEARCH HERE" class="capitalize px-1 w-56 outline-none rounded-md">
+        </div>
+        <!--<button class="absolute right-0 top-0">FIND </button>-->
+        <div id="results"class="bg-red-300 p-3 hidden absolute w-64 mr-4 rounded-md"></div>
+    </div>
+
+</div>
+<div class="flex">
+    <div class="w-1/6 bg-blue-300 h-screen">
+        <ul>
+            <li>Item1</li>
+            <li>Item2</li>
+            <li>Item3</li>
+            <li>Item4</li>
+            <li>Item5</li>
+            <li>Item6</li>
+        </ul>
+
+    </div>
+    <div class="w-screen bg-yellow-400 h-screen">Insert DaisyUI card grid</div>
+</div>
+
+
+<script src="search.js"></script>
+</body>
+</html>
